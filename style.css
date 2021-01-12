@@ -193,6 +193,16 @@ h4 {
   font-size: 1em;
 }
 
+button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+button a:hover {
+  background-color: inherit;
+  color: #FFFFFF;
+}
+
 /**
  * BOX HACKING
  */
@@ -383,7 +393,7 @@ html {
   transition: all 1s ease-in-out;
 }
 
-.main a {
+.main .masonry-item a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -395,7 +405,7 @@ html {
   margin: 5%;
 }
 
-.main a:hover {
+.main .masonry-item a:hover {
   opacity: 90%;
   color: black;
   background-color: rgba(255, 255, 255, 0.562);
@@ -691,6 +701,15 @@ li {
   color: tomato;
 }
 
+.social-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-list a:hover {
+  color: tomato;
+}
+
 @media screen and (max-width: 990px) {
   .contacts {
     flex-direction: column;
@@ -753,5 +772,9 @@ li {
 
   .project-item2-3 img {
     width: 100%;
+  }
+
+  .project-item2-3 img {
+    margin-bottom: 20px;
   }
 }
