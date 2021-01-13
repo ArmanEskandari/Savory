@@ -473,8 +473,8 @@ html {
   width: 100% !important;
   height: auto !important;
   margin: 5px 0;
-  box-shadow: 5px 5px 5px rgb(126, 107, 107);
-  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(126, 107, 107);
+  border-radius: 5px;
 }
 
 figcaption {
